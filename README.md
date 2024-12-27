@@ -2,9 +2,27 @@
 
 ## Introduction
 
-This repository has been established in conjunction with the publication of the research paper "Evaluating the Effectiveness of Machine Learning Models for Performance Forecasting in Basketball: A Comparative Study". It serves as a supplementary resource for researchers, analysts, and enthusiasts, conducting in-depth analyses, and creating predictive models related to the game of basketball.
+This repository has been established in conjunction with the publication of the research paper [Evaluating the Effectiveness of Machine Learning Models for Performance Forecasting in Basketball: A Comparative Study](https://link.springer.com/article/10.1007/s10115-024-02092-9). It serves as a supplementary resource for researchers, analysts, and enthusiasts, conducting in-depth analyses, and creating predictive models related to the game of basketball.
 
 Within this repository, you will find a carefully curated collection of data that spans various aspects of the sport for the seasons 2019-20 up to 2021-22, including player performance, team statistics, game outcomes, and more. The data is presented in a structured format, making it accessible for both novice data enthusiasts and seasoned statisticians.
+
+### Citation
+```bibtex
+@Article{Papageorgiou2024,
+  AUTHOR = {Papageorgiou, George and Sarlis, Vangelis and Tjortjis, Christos},
+  TITLE = {Evaluating the effectiveness of machine learning models for performance forecasting in basketball: a comparative study},
+  JOURNAL = {Knowledge and Information Systems},
+  YEAR = {2024},
+  VOLUME = {66},
+  NUMBER = {7},
+  PAGES = {4333--4375},
+  DOI = {10.1007/s10115-024-02092-9},
+  URL = {https://doi.org/10.1007/s10115-024-02092-9},
+  ISSN = {0219-3116},
+  ABSTRACT = {Sports analytics (SA) incorporate machine learning (ML) techniques and models for performance prediction. Researchers have previously evaluated ML models applied on a variety of basketball statistics. This paper aims to benchmark the forecasting performance of 14 ML models, based on 18 advanced basketball statistics and key performance indicators (KPIs). The models were applied on a filtered pool of 90 high-performance players. This study developed individual forecasting scenarios per player and experimented using all 14 models. The models’ performance ranking was developed using a bespoke evaluation metric, called weighted average percentage error (WAPE), formulated from the weighted mean absolute percentage error (MAPE) evaluation results of each forecasted statistic and model. Moreover, we employed a comprehensive forecasting approach to improve KPI's results. Results showed that Tree-based models, namely Extra Trees, Random Forest, and Decision Tree, are the best performers in most of the forecasted performance indicators, with the best performance achieved by Extra Trees with a WAPE of 34.14%. In conclusion, we achieved a 3.6% MAPE improvement for the selected KPI with our approach on unseen data.}
+}
+
+```
 
 ## Data Source
 
